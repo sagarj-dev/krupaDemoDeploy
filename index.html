@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        width: 700px;
+        background-color: antiquewhite;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .bubble {
+        background-color: white;
+        width: fit-content;
+        padding: 0.5rem;
+        margin-bottom: 0.3rem;
+      }
+
+      .senderMsg {
+        background-color: greenyellow;
+        align-self: flex-end;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <a href="/ss.html">ss</a>
+      <div id="bubble" class="bubble">
+        <p>this is a message 1</p>
+      </div>
+      <div class="bubble">
+        <p>this is a message 2</p>
+      </div>
+      <div class="bubble senderMsg">
+        <p>this is a message 3</p>
+      </div>
+      <div class="bubble">
+        <p>this is a message 4</p>
+      </div>
+      <div class="bubble senderMsg">
+        <p>this is a message 5</p>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
